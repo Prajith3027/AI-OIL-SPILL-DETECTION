@@ -10,11 +10,11 @@ export default defineConfig({
     proxy: {
       // Proxy /api calls to the FastAPI backend during development
       '/api': {
-        target: 'http://localhost:8000',
+        target: 'https://oil-spill-detection-9601.onrender.com',
         changeOrigin: true,
       },
       '/health': {
-        target: 'http://localhost:8000',
+        target: 'https://oil-spill-detection-9601.onrender.com',
         changeOrigin: true,
       },
     },
