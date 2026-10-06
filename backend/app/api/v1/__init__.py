@@ -38,37 +38,43 @@ from app.api.v1.alerts import (
     incident_alerts_router,
 )
 from app.api.v1.assistant import router as assistant_router
+from fastapi import Depends
+from app.core.auth import require_admin
 
 router = APIRouter()
 
+# RBAC: every pre-existing operational API is admin-only on the backend.
+# (health is open for liveness probes; reports enforces roles per endpoint.)
+_admin = [Depends(require_admin)]
+
 # Mount all specialized sub-routers BEFORE generic incidents router
-router.include_router(assistant_router)
-router.include_router(alerts_router)
-router.include_router(incident_alerts_router)
-router.include_router(simulations_router)
-router.include_router(economic_incident_router)
-router.include_router(economic_assumptions_router)
-router.include_router(recovery_incident_router)
-router.include_router(recovery_factors_router)
-router.include_router(priority_router)
-router.include_router(movement_router)
-router.include_router(ecosystem_incident_router)
-router.include_router(coastal_impact_router)
-router.include_router(route_optimizer_incident_router)
-router.include_router(cleanup_planner_router)
-router.include_router(resource_allocation_router)
-router.include_router(verification_router)
-router.include_router(source_analysis_router)
+router.include_router(assistant_router, dependencies=_admin)
+router.include_router(alerts_router, dependencies=_admin)
+router.include_router(incident_alerts_router, dependencies=_admin)
+router.include_router(simulations_router, dependencies=_admin)
+router.include_router(economic_incident_router, dependencies=_admin)
+router.include_router(economic_assumptions_router, dependencies=_admin)
+router.include_router(recovery_incident_router, dependencies=_admin)
+router.include_router(recovery_factors_router, dependencies=_admin)
+router.include_router(priority_router, dependencies=_admin)
+router.include_router(movement_router, dependencies=_admin)
+router.include_router(ecosystem_incident_router, dependencies=_admin)
+router.include_router(coastal_impact_router, dependencies=_admin)
+router.include_router(route_optimizer_incident_router, dependencies=_admin)
+router.include_router(cleanup_planner_router, dependencies=_admin)
+router.include_router(resource_allocation_router, dependencies=_admin)
+router.include_router(verification_router, dependencies=_admin)
+router.include_router(source_analysis_router, dependencies=_admin)
 router.include_router(reports_router)
-router.include_router(incidents_router)
-router.include_router(ecosystem_zone_router)
-router.include_router(map_router)
-router.include_router(dashboard_router)
+router.include_router(incidents_router, dependencies=_admin)
+router.include_router(ecosystem_zone_router, dependencies=_admin)
+router.include_router(map_router, dependencies=_admin)
+router.include_router(dashboard_router, dependencies=_admin)
 router.include_router(health_router)
-router.include_router(detection_router)
-router.include_router(risk_router)
-router.include_router(route_optimizer_vessel_router)
-router.include_router(vessels_router)
+router.include_router(detection_router, dependencies=_admin)
+router.include_router(risk_router, dependencies=_admin)
+router.include_router(route_optimizer_vessel_router, dependencies=_admin)
+router.include_router(vessels_router, dependencies=_admin)
 
 
 @router.get("/", tags=["v1"], summary="API v1 root")

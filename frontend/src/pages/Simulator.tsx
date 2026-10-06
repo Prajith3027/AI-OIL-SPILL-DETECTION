@@ -199,8 +199,8 @@ export default function Simulator() {
   // Form State
   const [scenarioName, setScenarioName] = useState<string>("Hypothetical Spill Scenario");
   const [scenarioNotes, setScenarioNotes] = useState<string>("");
-  const [lat, setLat] = useState<number>(13.0827);
-  const [lon, setLon] = useState<number>(80.3500);
+  const [lat, setLat] = useState<number>(13.1500);
+  const [lon, setLon] = useState<number>(80.4500);
   const [pickOnMap, setPickOnMap] = useState<boolean>(false);
 
   const [spillSize, setSpillSize] = useState<number>(500);
@@ -844,9 +844,17 @@ export default function Simulator() {
                 zoom={10}
                 style={{ height: "100%", width: "100%", background: "#061325" }}
               >
+                {/* Basemap Tiles (100% Free, No Watermarks, No API Key Required) */}
                 <TileLayer
-                  url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
-                  attribution='&copy; <a href="https://carto.com/">CARTO</a>'
+                  attribution='&copy; <a href="https://www.esri.com/">Esri</a>, DeLorme, NAVTEQ'
+                  url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}"
+                  maxZoom={16}
+                />
+                <TileLayer
+                  attribution=""
+                  url="https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Reference/MapServer/tile/{z}/{y}/{x}"
+                  maxZoom={16}
+                  opacity={0.8}
                 />
                 <MapController center={mapCenter} zoom={10} />
                 <MapClickHandler

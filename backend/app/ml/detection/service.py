@@ -57,10 +57,16 @@ class DetectionService:
     _demo_detector = DemoDetector()
 
     @classmethod
-    def get_active_model(cls):
-        """Returns real model if weights are present; otherwise demo detector."""
+    def get_active_model(cls, is_file_upload: bool = False, demo_preset: Optional[str] = None):
+        """
+        Returns RealModelAdapter when real weights are available and:
+          1) A custom file is uploaded, OR
+          2) No explicit demo preset simulation is requested.
+        Preserves DemoDetector for preset demonstrations.
+        """
         if cls._real_model.is_available():
-            return cls._real_model
+            if is_file_upload or not demo_preset:
+                return cls._real_model
         return cls._demo_detector
 
     @classmethod
@@ -113,7 +119,7 @@ class DetectionService:
             image_bytes = demo_preset.encode("utf-8")
 
         # 2. Run inference using active detector
-        model = cls.get_active_model()
+        model = cls.get_active_model(is_file_upload=(file is not None), demo_preset=demo_preset)
         prediction = model.predict(
             image_bytes=image_bytes,
             filename=filename,

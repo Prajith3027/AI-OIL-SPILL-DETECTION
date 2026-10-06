@@ -14,6 +14,12 @@ import {
   X,
   BellRing,
   Bot,
+  Ship,
+  RotateCcw,
+  FileCheck,
+  Users,
+  Settings,
+  Mic,
 } from "lucide-react";
 import { useState } from "react";
 
@@ -26,17 +32,25 @@ interface NavItem {
 }
 
 const NAV_ITEMS: NavItem[] = [
-  { id: "dashboard",   label: "Dashboard",      path: "/",          Icon: LayoutDashboard },
-  { id: "assistant",   label: "AI Assistant",   path: "/assistant", Icon: Bot,            badge: "M24" },
-  { id: "incidents",   label: "Incidents",      path: "/incidents", Icon: AlertTriangle,  badge: "Live" },
-  { id: "alerts",      label: "Smart Alerts",   path: "/alerts",    Icon: BellRing,       badge: "M23" },
-  { id: "detect",      label: "Detect Spill",   path: "/detect",    Icon: ScanSearch },
-  { id: "priority",    label: "Priority Queue", path: "/priority",  Icon: ListOrdered },
-  { id: "map",         label: "Map Operations", path: "/map",       Icon: Map },
-  { id: "risk",        label: "Risk Analysis",  path: "/risk",      Icon: BarChart3 },
-  { id: "resources",   label: "Resources",      path: "/resources", Icon: Boxes },
-  { id: "reports",     label: "Citizen Reports", path: "/reports",  Icon: FileText,     badge: "M19" },
-  { id: "simulator",   label: "What-If Simulator", path: "/simulator", Icon: Waves,    badge: "M20" },
+  { id: "dashboard",     label: "Command Center",   path: "/admin/dashboard",     Icon: LayoutDashboard },
+  { id: "incidents",     label: "Incidents Queue",  path: "/incidents",           Icon: AlertTriangle,  badge: "Live" },
+  { id: "detect",        label: "AI Spill Detect",  path: "/detect",              Icon: ScanSearch,     badge: "SAR" },
+  { id: "ais",           label: "AIS Tracking",     path: "/admin/ais",           Icon: Ship,           badge: "Sim" },
+  { id: "investigation", label: "Vessel Ranking",   path: "/admin/investigation", Icon: Ship,           badge: "AI" },
+  { id: "hindcasting",   label: "Hindcast Origin",  path: "/admin/hindcasting",   Icon: RotateCcw },
+  { id: "drift",         label: "Forward Drift",    path: "/admin/drift",         Icon: Waves },
+  { id: "reports",       label: "Citizen Reports",  path: "/admin/reports",       Icon: FileText,       badge: "Triage" },
+  { id: "alerts",        label: "Emergency Alerts", path: "/admin/alerts",        Icon: BellRing },
+  { id: "evidence",      label: "Evidence Dossier", path: "/admin/evidence",      Icon: FileCheck },
+  { id: "users",         label: "User Governance",  path: "/admin/users",         Icon: Users },
+  { id: "priority",      label: "Priority Dispatch", path: "/priority",           Icon: ListOrdered },
+  { id: "map",           label: "Map Operations",   path: "/map",                 Icon: Map },
+  { id: "risk",          label: "Risk Studio",      path: "/risk",                Icon: BarChart3 },
+  { id: "resources",     label: "Resource Hub",     path: "/resources",           Icon: Boxes },
+  { id: "simulator",     label: "What-If Simulator", path: "/simulator",          Icon: Waves },
+  { id: "assistant",     label: "AI Assistant",     path: "/assistant",           Icon: Bot },
+  { id: "voice",         label: "Voice Assistant", path: "/admin/voice",         Icon: Mic,           badge: "22 Lang" },
+  { id: "settings",      label: "System Settings",  path: "/admin/settings",      Icon: Settings },
 ];
 
 interface SidebarProps {

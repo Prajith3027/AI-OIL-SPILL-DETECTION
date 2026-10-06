@@ -67,8 +67,20 @@ from app.models.assistant import (                              # noqa: F401
     AssistantConversation,
     AssistantMessage,
 )
+from app.models.user import (                                   # noqa: F401
+    User,
+    CitizenReportEvent,
+    PublicAlert,
+    Investigation,
+    VesselScore,
+)
 
 __all__ = [
+    "User",
+    "CitizenReportEvent",
+    "PublicAlert",
+    "Investigation",
+    "VesselScore",
     "IncidentStatus",
     "IncidentSeverity",
     "ZoneType",

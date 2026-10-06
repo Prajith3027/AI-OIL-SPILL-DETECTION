@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Outlet } from "react-router-dom";
 import { Sidebar } from "../components/layout/Sidebar";
 import { Header } from "../components/layout/Header";
+import { CopyrightFooter } from "../components/layout/CopyrightFooter";
 
 export function AppLayout() {
   const [mobileNavOpen, setMobileNavOpen] = useState(false);
@@ -25,6 +26,7 @@ export function AppLayout() {
         >
           <Outlet />
         </main>
+        <CopyrightFooter />
       </div>
     </div>
   );

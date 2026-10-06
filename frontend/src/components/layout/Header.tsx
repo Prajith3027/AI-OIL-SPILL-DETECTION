@@ -13,26 +13,39 @@ import {
   Bot,
   Sun,
   Moon,
+  LogOut,
 } from "lucide-react";
 import { useHealth } from "../../hooks/useHealth";
-import { useLocation, Link } from "react-router-dom";
+import { useLocation, Link, useNavigate } from "react-router-dom";
 import apiService from "../../services/api";
 import { useTheme } from "../../context/ThemeContext";
+import { useAuth } from "../../context/AuthContext";
 import type { SmartAlertItem } from "../../types";
 
 const ROUTE_TITLES: Record<string, string> = {
-  "/":             "Operational Dashboard",
-  "/incidents":    "Incident Operations & Dossier",
-  "/detect":       "AI Spill Detection",
-  "/detect-spill": "AI Spill Detection",
-  "/priority":     "Priority Dispatch Queue",
-  "/map":          "Geospatial Intelligence Map",
-  "/risk":         "Risk Studio & Explainability",
-  "/resources":    "Resource Allocation Hub",
-  "/reports":      "Citizen Reports Intelligence",
-  "/simulator":    "What-If Oil Spill Simulator",
-  "/alerts":       "Smart Alert & Restriction Command Center",
-  "/assistant":    "Oil Spill AI Assistant",
+  "/":                    "Operational Dashboard",
+  "/admin/dashboard":     "Maritime Command Operations Center",
+  "/admin/reports":       "Citizen Reports Management & Triage",
+  "/admin/ais":           "Real-Time AIS Maritime Surveillance",
+  "/admin/investigation": "Vessel Responsibility & Attribution",
+  "/admin/hindcasting":   "Lagrangian Reverse-Drift Hindcasting",
+  "/admin/drift":         "Forward Dispersion & Impact Forecast",
+  "/admin/alerts":        "Coastal Emergency Public Broadcasts",
+  "/admin/evidence":      "Compiled Evidentiary Dossier",
+  "/admin/users":         "User Directory & RBAC Governance",
+  "/admin/settings":      "System Diagnostics & AI Pipeline",
+  "/admin/voice":         "Multilingual Voice Assistant",
+  "/incidents":           "Incident Operations & Dossier",
+  "/detect":              "AI Spill Detection",
+  "/detect-spill":        "AI Spill Detection",
+  "/priority":            "Priority Dispatch Queue",
+  "/map":                 "Geospatial Intelligence Map",
+  "/risk":                "Risk Studio & Explainability",
+  "/resources":           "Resource Allocation Hub",
+  "/reports":             "Citizen Reports Intelligence",
+  "/simulator":           "What-If Oil Spill Simulator",
+  "/alerts":              "Smart Alert & Restriction Command Center",
+  "/assistant":           "Oil Spill AI Assistant",
 };
 
 interface HeaderProps {
@@ -51,6 +64,8 @@ interface NotificationItem {
 export function Header({ onToggleMobileNav }: HeaderProps) {
   const healthStatus = useHealth();
   const location = useLocation();
+  const navigate = useNavigate();
+  const { user, logout } = useAuth();
   const pageTitle = ROUTE_TITLES[location.pathname] ?? "Oil Spill Intelligence";
 
   // State for modals & popovers
@@ -173,9 +188,6 @@ export function Header({ onToggleMobileNav }: HeaderProps) {
           <div>
             <h1 className="text-base sm:text-lg font-extrabold text-[#17324D] tracking-tight flex items-center gap-2">
               <span>{pageTitle}</span>
-              <span className="hidden lg:inline badge badge-info text-[9px] font-mono uppercase tracking-wider">
-                SIH 2024
-              </span>
             </h1>
             <p className="text-[11px] text-[#5E7183] hidden sm:block font-medium">
               AI-Powered Maritime Oil Spill Surveillance &amp; Response
@@ -383,44 +395,60 @@ export function Header({ onToggleMobileNav }: HeaderProps) {
               onClick={() => setShowProfile((prev) => !prev)}
               className="w-8 h-8 rounded-full bg-[#0B3A66] flex items-center justify-center
                          text-xs font-bold text-white shadow-sm cursor-pointer border border-[#D9E8F2]"
-              aria-label="User profile: Emergency Operations Commander"
+              aria-label="User profile"
               aria-expanded={showProfile}
             >
-              SIH
+              {user?.name ? user.name.slice(0, 2).toUpperCase() : "AD"}
             </button>
 
             {/* Profile popover */}
             {showProfile && (
-              <div className="absolute right-0 mt-2 w-64 rounded-2xl bg-white border border-[#D9E8F2] shadow-xl p-4 z-50 animate-fade-in space-y-3 text-xs">
-                <div className="flex items-center gap-3 pb-3 border-b border-[#D9E8F2]">
+              <div className="absolute right-0 mt-2 w-64 rounded-2xl bg-white dark:bg-[#0c1f33] border border-[#D9E8F2] dark:border-[#1a3854] shadow-xl p-4 z-50 animate-fade-in space-y-3 text-xs">
+                <div className="flex items-center gap-3 pb-3 border-b border-[#D9E8F2] dark:border-[#1a3854]">
                   <div className="w-9 h-9 rounded-full bg-[#0B3A66] flex items-center justify-center font-bold text-white shrink-0">
-                    SIH
+                    {user?.name ? user.name.slice(0, 2).toUpperCase() : "AD"}
                   </div>
-                  <div>
-                    <div className="font-bold text-[#17324D]">Emergency Officer</div>
-                    <div className="text-[10px] text-[#5E7183]">Maritime Operations EOC</div>
-                  </div>
-                </div>
-
-                <div className="space-y-1.5 text-[11px] text-[#17324D]">
-                  <div className="flex justify-between">
-                    <span className="text-[#5E7183]">Station:</span>
-                    <span className="font-mono text-[#17324D] font-semibold">MRCC Chennai Sector</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-[#5E7183]">Access Level:</span>
-                    <span className="badge badge-success text-[9px]">Tier-1 Lead</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-[#5E7183]">Operation:</span>
-                    <span className="text-[#1268B3] font-bold">SIH 2024 Demo</span>
+                  <div className="truncate">
+                    <div className="font-bold text-[#17324D] dark:text-white truncate">
+                      {user?.name || "Emergency Officer"}
+                    </div>
+                    <div className="text-[10px] text-[#5E7183] dark:text-slate-400 truncate">
+                      {user?.email || "admin@maritime.gov.in"}
+                    </div>
                   </div>
                 </div>
 
-                <div className="pt-2 border-t border-[#D9E8F2] flex justify-end">
+                <div className="space-y-1.5 text-[11px] text-[#17324D] dark:text-slate-300">
+                  <div className="flex justify-between">
+                    <span className="text-[#5E7183] dark:text-slate-400">Sector:</span>
+                    <span className="font-mono font-semibold">MRCC Bay of Bengal</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-[#5E7183] dark:text-slate-400">Authorization:</span>
+                    <span className="badge badge-success text-[9px] uppercase">
+                      {user?.role || "ADMIN"} TIER-1
+                    </span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-[#5E7183] dark:text-slate-400">Operation:</span>
+                    <span className="text-[#1268B3] dark:text-[#00f3ff] font-bold">SIH 2026</span>
+                  </div>
+                </div>
+
+                <div className="pt-2 border-t border-[#D9E8F2] dark:border-[#1a3854] space-y-1.5">
+                  <button
+                    onClick={() => {
+                      logout();
+                      navigate("/login");
+                    }}
+                    className="w-full py-2 px-3 rounded-xl bg-red-50 hover:bg-red-100 dark:bg-red-950/40 dark:hover:bg-red-900/60 text-red-700 dark:text-red-300 font-bold text-xs flex items-center justify-center gap-1.5 transition"
+                  >
+                    <LogOut className="w-3.5 h-3.5" />
+                    <span>Sign Out (Logout)</span>
+                  </button>
                   <button
                     onClick={() => setShowProfile(false)}
-                    className="text-[10px] text-[#5E7183] hover:text-[#17324D] font-semibold transition"
+                    className="w-full text-center text-[10px] text-[#5E7183] hover:text-[#17324D] font-semibold transition py-1"
                   >
                     Close
                   </button>

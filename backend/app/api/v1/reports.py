@@ -26,6 +26,7 @@ from fastapi import (
 )
 from sqlalchemy.orm import Session
 
+from app.core.auth import require_admin, require_citizen_or_admin
 from app.database.session import get_db
 from app.schemas.citizen_report import (
     CitizenReportCreate,
@@ -62,6 +63,7 @@ async def submit_citizen_report(
     reporter_affiliation: Optional[str] = Form("CITIZEN", description="CITIZEN, FISHERMAN, etc."),
     photo: Optional[UploadFile] = File(None, description="Optional uploaded image evidence (JPG, PNG, WEBP)"),
     db: Session = Depends(get_db),
+    _user=Depends(require_citizen_or_admin),
 ):
     photo_meta = None
     if photo and photo.filename:
@@ -93,6 +95,7 @@ async def submit_citizen_report(
 def submit_citizen_report_json(
     payload: CitizenReportCreate,
     db: Session = Depends(get_db),
+    _user=Depends(require_citizen_or_admin),
 ):
     report = CitizenReportingService.create_report(db, payload, photo_meta=None)
     return CitizenReportPublicResponse.model_validate(report)
@@ -111,6 +114,7 @@ def list_citizen_reports(
     page: int = Query(1, ge=1),
     page_size: int = Query(20, ge=1, le=100),
     db: Session = Depends(get_db),
+    _admin=Depends(require_admin),
 ):
     return CitizenReportingService.list_reports(
         db=db,
@@ -130,6 +134,7 @@ def list_citizen_reports(
 def get_citizen_report(
     id: str,
     db: Session = Depends(get_db),
+    _admin=Depends(require_admin),
 ):
     report = CitizenReportingService.get_report(db, id)
     return CitizenReportAdminResponse.model_validate(report)
@@ -145,6 +150,7 @@ def update_report_status(
     id: str,
     payload: CitizenReportStatusUpdate,
     db: Session = Depends(get_db),
+    _admin=Depends(require_admin),
 ):
     report = CitizenReportingService.update_status(db, id, payload)
     return CitizenReportAdminResponse.model_validate(report)
@@ -165,6 +171,7 @@ def verify_report(
     id: str,
     payload: CitizenReportVerifyRequest = Body(default_factory=CitizenReportVerifyRequest),
     db: Session = Depends(get_db),
+    _admin=Depends(require_admin),
 ):
     report = CitizenReportingService.verify_report(db, id, payload)
     return CitizenReportAdminResponse.model_validate(report)

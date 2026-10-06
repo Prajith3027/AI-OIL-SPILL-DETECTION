@@ -49,6 +49,12 @@ async def lifespan(app: FastAPI):
                 conn.commit()
             except Exception:
                 pass
+        # Auth extension: new citizen_reports columns + optional admin seed from environment
+        from app.database.auth_setup import migrate_citizen_reports, seed_initial_admin
+        from app.database.session import SessionLocal
+        migrate_citizen_reports()
+        with SessionLocal() as _db:
+            seed_initial_admin(_db)
         logger.info("Database tables verified/created.")
     except SQLAlchemyError as e:
         logger.warning(f"DB startup warning (DB may not be running): {e}")
@@ -109,6 +115,17 @@ os.makedirs("uploads/reports", exist_ok=True)
 app.mount("/uploads", StaticFiles(directory="uploads"), name="uploads")
 
 app.include_router(v1_router, prefix="/api/v1")
+
+# Role-based API surface (JWT + server-side RBAC)
+from app.api.auth_routes import router as auth_router            # noqa: E402
+from app.api.citizen_routes import router as citizen_router, public_router  # noqa: E402
+from app.api.admin_routes import router as admin_router          # noqa: E402
+from app.api.voice_routes import router as voice_router          # noqa: E402
+app.include_router(auth_router, prefix="/api")
+app.include_router(citizen_router, prefix="/api")
+app.include_router(public_router, prefix="/api")
+app.include_router(admin_router, prefix="/api")
+app.include_router(voice_router, prefix="/api")
 
 # ── Core endpoints ─────────────────────────────────────────────────────────
 

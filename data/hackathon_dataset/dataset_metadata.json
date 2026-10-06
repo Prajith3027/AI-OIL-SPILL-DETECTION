@@ -1,0 +1,1922 @@
+[
+  {
+    "id": 1,
+    "image": "sar_scene_0001.png",
+    "mask": "sar_scene_0001_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 3194,
+    "spill_area_ratio": 0.0487
+  },
+  {
+    "id": 2,
+    "image": "sar_scene_0002.png",
+    "mask": "sar_scene_0002_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 7694,
+    "spill_area_ratio": 0.1174
+  },
+  {
+    "id": 3,
+    "image": "sar_scene_0003.png",
+    "mask": "sar_scene_0003_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 6760,
+    "spill_area_ratio": 0.1031
+  },
+  {
+    "id": 4,
+    "image": "sar_scene_0004.png",
+    "mask": "sar_scene_0004_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 11679,
+    "spill_area_ratio": 0.1782
+  },
+  {
+    "id": 5,
+    "image": "sar_scene_0005.png",
+    "mask": "sar_scene_0005_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 2140,
+    "spill_area_ratio": 0.0327
+  },
+  {
+    "id": 6,
+    "image": "sar_scene_0006.png",
+    "mask": "sar_scene_0006_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 11947,
+    "spill_area_ratio": 0.1823
+  },
+  {
+    "id": 7,
+    "image": "sar_scene_0007.png",
+    "mask": "sar_scene_0007_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 5167,
+    "spill_area_ratio": 0.0788
+  },
+  {
+    "id": 8,
+    "image": "sar_scene_0008.png",
+    "mask": "sar_scene_0008_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 4527,
+    "spill_area_ratio": 0.0691
+  },
+  {
+    "id": 9,
+    "image": "sar_scene_0009.png",
+    "mask": "sar_scene_0009_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 7416,
+    "spill_area_ratio": 0.1132
+  },
+  {
+    "id": 10,
+    "image": "sar_scene_0010.png",
+    "mask": "sar_scene_0010_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 3528,
+    "spill_area_ratio": 0.0538
+  },
+  {
+    "id": 11,
+    "image": "sar_scene_0011.png",
+    "mask": "sar_scene_0011_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 5187,
+    "spill_area_ratio": 0.0791
+  },
+  {
+    "id": 12,
+    "image": "sar_scene_0012.png",
+    "mask": "sar_scene_0012_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 9501,
+    "spill_area_ratio": 0.145
+  },
+  {
+    "id": 13,
+    "image": "sar_scene_0013.png",
+    "mask": "sar_scene_0013_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 14989,
+    "spill_area_ratio": 0.2287
+  },
+  {
+    "id": 14,
+    "image": "sar_scene_0014.png",
+    "mask": "sar_scene_0014_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 2068,
+    "spill_area_ratio": 0.0316
+  },
+  {
+    "id": 15,
+    "image": "sar_scene_0015.png",
+    "mask": "sar_scene_0015_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 19682,
+    "spill_area_ratio": 0.3003
+  },
+  {
+    "id": 16,
+    "image": "sar_scene_0016.png",
+    "mask": "sar_scene_0016_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 15270,
+    "spill_area_ratio": 0.233
+  },
+  {
+    "id": 17,
+    "image": "sar_scene_0017.png",
+    "mask": "sar_scene_0017_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 12078,
+    "spill_area_ratio": 0.1843
+  },
+  {
+    "id": 18,
+    "image": "sar_scene_0018.png",
+    "mask": "sar_scene_0018_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 2290,
+    "spill_area_ratio": 0.0349
+  },
+  {
+    "id": 19,
+    "image": "sar_scene_0019.png",
+    "mask": "sar_scene_0019_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 15047,
+    "spill_area_ratio": 0.2296
+  },
+  {
+    "id": 20,
+    "image": "sar_scene_0020.png",
+    "mask": "sar_scene_0020_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 5914,
+    "spill_area_ratio": 0.0902
+  },
+  {
+    "id": 21,
+    "image": "sar_scene_0021.png",
+    "mask": "sar_scene_0021_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 6836,
+    "spill_area_ratio": 0.1043
+  },
+  {
+    "id": 22,
+    "image": "sar_scene_0022.png",
+    "mask": "sar_scene_0022_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 1835,
+    "spill_area_ratio": 0.028
+  },
+  {
+    "id": 23,
+    "image": "sar_scene_0023.png",
+    "mask": "sar_scene_0023_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 3152,
+    "spill_area_ratio": 0.0481
+  },
+  {
+    "id": 24,
+    "image": "sar_scene_0024.png",
+    "mask": "sar_scene_0024_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 12528,
+    "spill_area_ratio": 0.1912
+  },
+  {
+    "id": 25,
+    "image": "sar_scene_0025.png",
+    "mask": "sar_scene_0025_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 7281,
+    "spill_area_ratio": 0.1111
+  },
+  {
+    "id": 26,
+    "image": "sar_scene_0026.png",
+    "mask": "sar_scene_0026_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 2961,
+    "spill_area_ratio": 0.0452
+  },
+  {
+    "id": 27,
+    "image": "sar_scene_0027.png",
+    "mask": "sar_scene_0027_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 2318,
+    "spill_area_ratio": 0.0354
+  },
+  {
+    "id": 28,
+    "image": "sar_scene_0028.png",
+    "mask": "sar_scene_0028_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 12446,
+    "spill_area_ratio": 0.1899
+  },
+  {
+    "id": 29,
+    "image": "sar_scene_0029.png",
+    "mask": "sar_scene_0029_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 13609,
+    "spill_area_ratio": 0.2077
+  },
+  {
+    "id": 30,
+    "image": "sar_scene_0030.png",
+    "mask": "sar_scene_0030_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 2565,
+    "spill_area_ratio": 0.0391
+  },
+  {
+    "id": 31,
+    "image": "sar_scene_0031.png",
+    "mask": "sar_scene_0031_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 8276,
+    "spill_area_ratio": 0.1263
+  },
+  {
+    "id": 32,
+    "image": "sar_scene_0032.png",
+    "mask": "sar_scene_0032_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 2506,
+    "spill_area_ratio": 0.0382
+  },
+  {
+    "id": 33,
+    "image": "sar_scene_0033.png",
+    "mask": "sar_scene_0033_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 8348,
+    "spill_area_ratio": 0.1274
+  },
+  {
+    "id": 34,
+    "image": "sar_scene_0034.png",
+    "mask": "sar_scene_0034_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 8688,
+    "spill_area_ratio": 0.1326
+  },
+  {
+    "id": 35,
+    "image": "sar_scene_0035.png",
+    "mask": "sar_scene_0035_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 6145,
+    "spill_area_ratio": 0.0938
+  },
+  {
+    "id": 36,
+    "image": "sar_scene_0036.png",
+    "mask": "sar_scene_0036_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 1973,
+    "spill_area_ratio": 0.0301
+  },
+  {
+    "id": 37,
+    "image": "sar_scene_0037.png",
+    "mask": "sar_scene_0037_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 11132,
+    "spill_area_ratio": 0.1699
+  },
+  {
+    "id": 38,
+    "image": "sar_scene_0038.png",
+    "mask": "sar_scene_0038_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 8341,
+    "spill_area_ratio": 0.1273
+  },
+  {
+    "id": 39,
+    "image": "sar_scene_0039.png",
+    "mask": "sar_scene_0039_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 12850,
+    "spill_area_ratio": 0.1961
+  },
+  {
+    "id": 40,
+    "image": "sar_scene_0040.png",
+    "mask": "sar_scene_0040_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 2520,
+    "spill_area_ratio": 0.0385
+  },
+  {
+    "id": 41,
+    "image": "sar_scene_0041.png",
+    "mask": "sar_scene_0041_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 9064,
+    "spill_area_ratio": 0.1383
+  },
+  {
+    "id": 42,
+    "image": "sar_scene_0042.png",
+    "mask": "sar_scene_0042_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 8008,
+    "spill_area_ratio": 0.1222
+  },
+  {
+    "id": 43,
+    "image": "sar_scene_0043.png",
+    "mask": "sar_scene_0043_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 2874,
+    "spill_area_ratio": 0.0439
+  },
+  {
+    "id": 44,
+    "image": "sar_scene_0044.png",
+    "mask": "sar_scene_0044_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 9867,
+    "spill_area_ratio": 0.1506
+  },
+  {
+    "id": 45,
+    "image": "sar_scene_0045.png",
+    "mask": "sar_scene_0045_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 4155,
+    "spill_area_ratio": 0.0634
+  },
+  {
+    "id": 46,
+    "image": "sar_scene_0046.png",
+    "mask": "sar_scene_0046_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 4595,
+    "spill_area_ratio": 0.0701
+  },
+  {
+    "id": 47,
+    "image": "sar_scene_0047.png",
+    "mask": "sar_scene_0047_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 14564,
+    "spill_area_ratio": 0.2222
+  },
+  {
+    "id": 48,
+    "image": "sar_scene_0048.png",
+    "mask": "sar_scene_0048_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 3019,
+    "spill_area_ratio": 0.0461
+  },
+  {
+    "id": 49,
+    "image": "sar_scene_0049.png",
+    "mask": "sar_scene_0049_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 1764,
+    "spill_area_ratio": 0.0269
+  },
+  {
+    "id": 50,
+    "image": "sar_scene_0050.png",
+    "mask": "sar_scene_0050_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 4784,
+    "spill_area_ratio": 0.073
+  },
+  {
+    "id": 51,
+    "image": "sar_scene_0051.png",
+    "mask": "sar_scene_0051_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 2557,
+    "spill_area_ratio": 0.039
+  },
+  {
+    "id": 52,
+    "image": "sar_scene_0052.png",
+    "mask": "sar_scene_0052_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 7895,
+    "spill_area_ratio": 0.1205
+  },
+  {
+    "id": 53,
+    "image": "sar_scene_0053.png",
+    "mask": "sar_scene_0053_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 10825,
+    "spill_area_ratio": 0.1652
+  },
+  {
+    "id": 54,
+    "image": "sar_scene_0054.png",
+    "mask": "sar_scene_0054_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 10840,
+    "spill_area_ratio": 0.1654
+  },
+  {
+    "id": 55,
+    "image": "sar_scene_0055.png",
+    "mask": "sar_scene_0055_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 13466,
+    "spill_area_ratio": 0.2055
+  },
+  {
+    "id": 56,
+    "image": "sar_scene_0056.png",
+    "mask": "sar_scene_0056_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 15230,
+    "spill_area_ratio": 0.2324
+  },
+  {
+    "id": 57,
+    "image": "sar_scene_0057.png",
+    "mask": "sar_scene_0057_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 3885,
+    "spill_area_ratio": 0.0593
+  },
+  {
+    "id": 58,
+    "image": "sar_scene_0058.png",
+    "mask": "sar_scene_0058_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 8800,
+    "spill_area_ratio": 0.1343
+  },
+  {
+    "id": 59,
+    "image": "sar_scene_0059.png",
+    "mask": "sar_scene_0059_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 6143,
+    "spill_area_ratio": 0.0937
+  },
+  {
+    "id": 60,
+    "image": "sar_scene_0060.png",
+    "mask": "sar_scene_0060_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 9125,
+    "spill_area_ratio": 0.1392
+  },
+  {
+    "id": 61,
+    "image": "sar_scene_0061.png",
+    "mask": "sar_scene_0061_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 11954,
+    "spill_area_ratio": 0.1824
+  },
+  {
+    "id": 62,
+    "image": "sar_scene_0062.png",
+    "mask": "sar_scene_0062_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 2112,
+    "spill_area_ratio": 0.0322
+  },
+  {
+    "id": 63,
+    "image": "sar_scene_0063.png",
+    "mask": "sar_scene_0063_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 7307,
+    "spill_area_ratio": 0.1115
+  },
+  {
+    "id": 64,
+    "image": "sar_scene_0064.png",
+    "mask": "sar_scene_0064_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 11499,
+    "spill_area_ratio": 0.1755
+  },
+  {
+    "id": 65,
+    "image": "sar_scene_0065.png",
+    "mask": "sar_scene_0065_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 10006,
+    "spill_area_ratio": 0.1527
+  },
+  {
+    "id": 66,
+    "image": "sar_scene_0066.png",
+    "mask": "sar_scene_0066_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 3629,
+    "spill_area_ratio": 0.0554
+  },
+  {
+    "id": 67,
+    "image": "sar_scene_0067.png",
+    "mask": "sar_scene_0067_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 5267,
+    "spill_area_ratio": 0.0804
+  },
+  {
+    "id": 68,
+    "image": "sar_scene_0068.png",
+    "mask": "sar_scene_0068_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 4668,
+    "spill_area_ratio": 0.0712
+  },
+  {
+    "id": 69,
+    "image": "sar_scene_0069.png",
+    "mask": "sar_scene_0069_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 12323,
+    "spill_area_ratio": 0.188
+  },
+  {
+    "id": 70,
+    "image": "sar_scene_0070.png",
+    "mask": "sar_scene_0070_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 5442,
+    "spill_area_ratio": 0.083
+  },
+  {
+    "id": 71,
+    "image": "sar_scene_0071.png",
+    "mask": "sar_scene_0071_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 11520,
+    "spill_area_ratio": 0.1758
+  },
+  {
+    "id": 72,
+    "image": "sar_scene_0072.png",
+    "mask": "sar_scene_0072_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 9588,
+    "spill_area_ratio": 0.1463
+  },
+  {
+    "id": 73,
+    "image": "sar_scene_0073.png",
+    "mask": "sar_scene_0073_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 21218,
+    "spill_area_ratio": 0.3238
+  },
+  {
+    "id": 74,
+    "image": "sar_scene_0074.png",
+    "mask": "sar_scene_0074_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 3732,
+    "spill_area_ratio": 0.0569
+  },
+  {
+    "id": 75,
+    "image": "sar_scene_0075.png",
+    "mask": "sar_scene_0075_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 17998,
+    "spill_area_ratio": 0.2746
+  },
+  {
+    "id": 76,
+    "image": "sar_scene_0076.png",
+    "mask": "sar_scene_0076_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 16004,
+    "spill_area_ratio": 0.2442
+  },
+  {
+    "id": 77,
+    "image": "sar_scene_0077.png",
+    "mask": "sar_scene_0077_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 7735,
+    "spill_area_ratio": 0.118
+  },
+  {
+    "id": 78,
+    "image": "sar_scene_0078.png",
+    "mask": "sar_scene_0078_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 9216,
+    "spill_area_ratio": 0.1406
+  },
+  {
+    "id": 79,
+    "image": "sar_scene_0079.png",
+    "mask": "sar_scene_0079_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 9656,
+    "spill_area_ratio": 0.1473
+  },
+  {
+    "id": 80,
+    "image": "sar_scene_0080.png",
+    "mask": "sar_scene_0080_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 6686,
+    "spill_area_ratio": 0.102
+  },
+  {
+    "id": 81,
+    "image": "sar_scene_0081.png",
+    "mask": "sar_scene_0081_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 8459,
+    "spill_area_ratio": 0.1291
+  },
+  {
+    "id": 82,
+    "image": "sar_scene_0082.png",
+    "mask": "sar_scene_0082_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 5841,
+    "spill_area_ratio": 0.0891
+  },
+  {
+    "id": 83,
+    "image": "sar_scene_0083.png",
+    "mask": "sar_scene_0083_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 3885,
+    "spill_area_ratio": 0.0593
+  },
+  {
+    "id": 84,
+    "image": "sar_scene_0084.png",
+    "mask": "sar_scene_0084_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 1729,
+    "spill_area_ratio": 0.0264
+  },
+  {
+    "id": 85,
+    "image": "sar_scene_0085.png",
+    "mask": "sar_scene_0085_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 4175,
+    "spill_area_ratio": 0.0637
+  },
+  {
+    "id": 86,
+    "image": "sar_scene_0086.png",
+    "mask": "sar_scene_0086_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 13772,
+    "spill_area_ratio": 0.2101
+  },
+  {
+    "id": 87,
+    "image": "sar_scene_0087.png",
+    "mask": "sar_scene_0087_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 10527,
+    "spill_area_ratio": 0.1606
+  },
+  {
+    "id": 88,
+    "image": "sar_scene_0088.png",
+    "mask": "sar_scene_0088_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 8709,
+    "spill_area_ratio": 0.1329
+  },
+  {
+    "id": 89,
+    "image": "sar_scene_0089.png",
+    "mask": "sar_scene_0089_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 9776,
+    "spill_area_ratio": 0.1492
+  },
+  {
+    "id": 90,
+    "image": "sar_scene_0090.png",
+    "mask": "sar_scene_0090_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 4461,
+    "spill_area_ratio": 0.0681
+  },
+  {
+    "id": 91,
+    "image": "sar_scene_0091.png",
+    "mask": "sar_scene_0091_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 3701,
+    "spill_area_ratio": 0.0565
+  },
+  {
+    "id": 92,
+    "image": "sar_scene_0092.png",
+    "mask": "sar_scene_0092_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 4005,
+    "spill_area_ratio": 0.0611
+  },
+  {
+    "id": 93,
+    "image": "sar_scene_0093.png",
+    "mask": "sar_scene_0093_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 3695,
+    "spill_area_ratio": 0.0564
+  },
+  {
+    "id": 94,
+    "image": "sar_scene_0094.png",
+    "mask": "sar_scene_0094_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 1824,
+    "spill_area_ratio": 0.0278
+  },
+  {
+    "id": 95,
+    "image": "sar_scene_0095.png",
+    "mask": "sar_scene_0095_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 2786,
+    "spill_area_ratio": 0.0425
+  },
+  {
+    "id": 96,
+    "image": "sar_scene_0096.png",
+    "mask": "sar_scene_0096_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 5694,
+    "spill_area_ratio": 0.0869
+  },
+  {
+    "id": 97,
+    "image": "sar_scene_0097.png",
+    "mask": "sar_scene_0097_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 13396,
+    "spill_area_ratio": 0.2044
+  },
+  {
+    "id": 98,
+    "image": "sar_scene_0098.png",
+    "mask": "sar_scene_0098_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 5056,
+    "spill_area_ratio": 0.0771
+  },
+  {
+    "id": 99,
+    "image": "sar_scene_0099.png",
+    "mask": "sar_scene_0099_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 14299,
+    "spill_area_ratio": 0.2182
+  },
+  {
+    "id": 100,
+    "image": "sar_scene_0100.png",
+    "mask": "sar_scene_0100_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 7064,
+    "spill_area_ratio": 0.1078
+  },
+  {
+    "id": 101,
+    "image": "sar_scene_0101.png",
+    "mask": "sar_scene_0101_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 3799,
+    "spill_area_ratio": 0.058
+  },
+  {
+    "id": 102,
+    "image": "sar_scene_0102.png",
+    "mask": "sar_scene_0102_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 10838,
+    "spill_area_ratio": 0.1654
+  },
+  {
+    "id": 103,
+    "image": "sar_scene_0103.png",
+    "mask": "sar_scene_0103_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 1939,
+    "spill_area_ratio": 0.0296
+  },
+  {
+    "id": 104,
+    "image": "sar_scene_0104.png",
+    "mask": "sar_scene_0104_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 5186,
+    "spill_area_ratio": 0.0791
+  },
+  {
+    "id": 105,
+    "image": "sar_scene_0105.png",
+    "mask": "sar_scene_0105_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 6522,
+    "spill_area_ratio": 0.0995
+  },
+  {
+    "id": 106,
+    "image": "sar_scene_0106.png",
+    "mask": "sar_scene_0106_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 9212,
+    "spill_area_ratio": 0.1406
+  },
+  {
+    "id": 107,
+    "image": "sar_scene_0107.png",
+    "mask": "sar_scene_0107_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 6548,
+    "spill_area_ratio": 0.0999
+  },
+  {
+    "id": 108,
+    "image": "sar_scene_0108.png",
+    "mask": "sar_scene_0108_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 6614,
+    "spill_area_ratio": 0.1009
+  },
+  {
+    "id": 109,
+    "image": "sar_scene_0109.png",
+    "mask": "sar_scene_0109_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 8200,
+    "spill_area_ratio": 0.1251
+  },
+  {
+    "id": 110,
+    "image": "sar_scene_0110.png",
+    "mask": "sar_scene_0110_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 8665,
+    "spill_area_ratio": 0.1322
+  },
+  {
+    "id": 111,
+    "image": "sar_scene_0111.png",
+    "mask": "sar_scene_0111_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 8438,
+    "spill_area_ratio": 0.1288
+  },
+  {
+    "id": 112,
+    "image": "sar_scene_0112.png",
+    "mask": "sar_scene_0112_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 3831,
+    "spill_area_ratio": 0.0585
+  },
+  {
+    "id": 113,
+    "image": "sar_scene_0113.png",
+    "mask": "sar_scene_0113_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 13900,
+    "spill_area_ratio": 0.2121
+  },
+  {
+    "id": 114,
+    "image": "sar_scene_0114.png",
+    "mask": "sar_scene_0114_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 3783,
+    "spill_area_ratio": 0.0577
+  },
+  {
+    "id": 115,
+    "image": "sar_scene_0115.png",
+    "mask": "sar_scene_0115_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 1751,
+    "spill_area_ratio": 0.0267
+  },
+  {
+    "id": 116,
+    "image": "sar_scene_0116.png",
+    "mask": "sar_scene_0116_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 7015,
+    "spill_area_ratio": 0.107
+  },
+  {
+    "id": 117,
+    "image": "sar_scene_0117.png",
+    "mask": "sar_scene_0117_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 9187,
+    "spill_area_ratio": 0.1402
+  },
+  {
+    "id": 118,
+    "image": "sar_scene_0118.png",
+    "mask": "sar_scene_0118_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 21588,
+    "spill_area_ratio": 0.3294
+  },
+  {
+    "id": 119,
+    "image": "sar_scene_0119.png",
+    "mask": "sar_scene_0119_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 15539,
+    "spill_area_ratio": 0.2371
+  },
+  {
+    "id": 120,
+    "image": "sar_scene_0120.png",
+    "mask": "sar_scene_0120_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 5970,
+    "spill_area_ratio": 0.0911
+  },
+  {
+    "id": 121,
+    "image": "sar_scene_0121.png",
+    "mask": "sar_scene_0121_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 11680,
+    "spill_area_ratio": 0.1782
+  },
+  {
+    "id": 122,
+    "image": "sar_scene_0122.png",
+    "mask": "sar_scene_0122_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 4923,
+    "spill_area_ratio": 0.0751
+  },
+  {
+    "id": 123,
+    "image": "sar_scene_0123.png",
+    "mask": "sar_scene_0123_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 6369,
+    "spill_area_ratio": 0.0972
+  },
+  {
+    "id": 124,
+    "image": "sar_scene_0124.png",
+    "mask": "sar_scene_0124_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 19140,
+    "spill_area_ratio": 0.2921
+  },
+  {
+    "id": 125,
+    "image": "sar_scene_0125.png",
+    "mask": "sar_scene_0125_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 8171,
+    "spill_area_ratio": 0.1247
+  },
+  {
+    "id": 126,
+    "image": "sar_scene_0126.png",
+    "mask": "sar_scene_0126_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 4793,
+    "spill_area_ratio": 0.0731
+  },
+  {
+    "id": 127,
+    "image": "sar_scene_0127.png",
+    "mask": "sar_scene_0127_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 11169,
+    "spill_area_ratio": 0.1704
+  },
+  {
+    "id": 128,
+    "image": "sar_scene_0128.png",
+    "mask": "sar_scene_0128_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 10493,
+    "spill_area_ratio": 0.1601
+  },
+  {
+    "id": 129,
+    "image": "sar_scene_0129.png",
+    "mask": "sar_scene_0129_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 6219,
+    "spill_area_ratio": 0.0949
+  },
+  {
+    "id": 130,
+    "image": "sar_scene_0130.png",
+    "mask": "sar_scene_0130_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 14455,
+    "spill_area_ratio": 0.2206
+  },
+  {
+    "id": 131,
+    "image": "sar_scene_0131.png",
+    "mask": "sar_scene_0131_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 3744,
+    "spill_area_ratio": 0.0571
+  },
+  {
+    "id": 132,
+    "image": "sar_scene_0132.png",
+    "mask": "sar_scene_0132_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 17333,
+    "spill_area_ratio": 0.2645
+  },
+  {
+    "id": 133,
+    "image": "sar_scene_0133.png",
+    "mask": "sar_scene_0133_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 3962,
+    "spill_area_ratio": 0.0605
+  },
+  {
+    "id": 134,
+    "image": "sar_scene_0134.png",
+    "mask": "sar_scene_0134_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 18371,
+    "spill_area_ratio": 0.2803
+  },
+  {
+    "id": 135,
+    "image": "sar_scene_0135.png",
+    "mask": "sar_scene_0135_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 14143,
+    "spill_area_ratio": 0.2158
+  },
+  {
+    "id": 136,
+    "image": "sar_scene_0136.png",
+    "mask": "sar_scene_0136_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 9858,
+    "spill_area_ratio": 0.1504
+  },
+  {
+    "id": 137,
+    "image": "sar_scene_0137.png",
+    "mask": "sar_scene_0137_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 6610,
+    "spill_area_ratio": 0.1009
+  },
+  {
+    "id": 138,
+    "image": "sar_scene_0138.png",
+    "mask": "sar_scene_0138_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 9730,
+    "spill_area_ratio": 0.1485
+  },
+  {
+    "id": 139,
+    "image": "sar_scene_0139.png",
+    "mask": "sar_scene_0139_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 18185,
+    "spill_area_ratio": 0.2775
+  },
+  {
+    "id": 140,
+    "image": "sar_scene_0140.png",
+    "mask": "sar_scene_0140_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 5272,
+    "spill_area_ratio": 0.0804
+  },
+  {
+    "id": 141,
+    "image": "sar_scene_0141.png",
+    "mask": "sar_scene_0141_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 10129,
+    "spill_area_ratio": 0.1546
+  },
+  {
+    "id": 142,
+    "image": "sar_scene_0142.png",
+    "mask": "sar_scene_0142_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 5536,
+    "spill_area_ratio": 0.0845
+  },
+  {
+    "id": 143,
+    "image": "sar_scene_0143.png",
+    "mask": "sar_scene_0143_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 10821,
+    "spill_area_ratio": 0.1651
+  },
+  {
+    "id": 144,
+    "image": "sar_scene_0144.png",
+    "mask": "sar_scene_0144_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 26304,
+    "spill_area_ratio": 0.4014
+  },
+  {
+    "id": 145,
+    "image": "sar_scene_0145.png",
+    "mask": "sar_scene_0145_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 12036,
+    "spill_area_ratio": 0.1837
+  },
+  {
+    "id": 146,
+    "image": "sar_scene_0146.png",
+    "mask": "sar_scene_0146_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 1858,
+    "spill_area_ratio": 0.0284
+  },
+  {
+    "id": 147,
+    "image": "sar_scene_0147.png",
+    "mask": "sar_scene_0147_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 11222,
+    "spill_area_ratio": 0.1712
+  },
+  {
+    "id": 148,
+    "image": "sar_scene_0148.png",
+    "mask": "sar_scene_0148_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 8494,
+    "spill_area_ratio": 0.1296
+  },
+  {
+    "id": 149,
+    "image": "sar_scene_0149.png",
+    "mask": "sar_scene_0149_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 4066,
+    "spill_area_ratio": 0.062
+  },
+  {
+    "id": 150,
+    "image": "sar_scene_0150.png",
+    "mask": "sar_scene_0150_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 2388,
+    "spill_area_ratio": 0.0364
+  },
+  {
+    "id": 151,
+    "image": "sar_scene_0151.png",
+    "mask": "sar_scene_0151_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 6898,
+    "spill_area_ratio": 0.1053
+  },
+  {
+    "id": 152,
+    "image": "sar_scene_0152.png",
+    "mask": "sar_scene_0152_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 4078,
+    "spill_area_ratio": 0.0622
+  },
+  {
+    "id": 153,
+    "image": "sar_scene_0153.png",
+    "mask": "sar_scene_0153_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 5649,
+    "spill_area_ratio": 0.0862
+  },
+  {
+    "id": 154,
+    "image": "sar_scene_0154.png",
+    "mask": "sar_scene_0154_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 13045,
+    "spill_area_ratio": 0.1991
+  },
+  {
+    "id": 155,
+    "image": "sar_scene_0155.png",
+    "mask": "sar_scene_0155_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 7802,
+    "spill_area_ratio": 0.119
+  },
+  {
+    "id": 156,
+    "image": "sar_scene_0156.png",
+    "mask": "sar_scene_0156_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 10998,
+    "spill_area_ratio": 0.1678
+  },
+  {
+    "id": 157,
+    "image": "sar_scene_0157.png",
+    "mask": "sar_scene_0157_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 10704,
+    "spill_area_ratio": 0.1633
+  },
+  {
+    "id": 158,
+    "image": "sar_scene_0158.png",
+    "mask": "sar_scene_0158_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 4402,
+    "spill_area_ratio": 0.0672
+  },
+  {
+    "id": 159,
+    "image": "sar_scene_0159.png",
+    "mask": "sar_scene_0159_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 4850,
+    "spill_area_ratio": 0.074
+  },
+  {
+    "id": 160,
+    "image": "sar_scene_0160.png",
+    "mask": "sar_scene_0160_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 1875,
+    "spill_area_ratio": 0.0286
+  },
+  {
+    "id": 161,
+    "image": "sar_scene_0161.png",
+    "mask": "sar_scene_0161_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 4456,
+    "spill_area_ratio": 0.068
+  },
+  {
+    "id": 162,
+    "image": "sar_scene_0162.png",
+    "mask": "sar_scene_0162_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 4086,
+    "spill_area_ratio": 0.0623
+  },
+  {
+    "id": 163,
+    "image": "sar_scene_0163.png",
+    "mask": "sar_scene_0163_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 3082,
+    "spill_area_ratio": 0.047
+  },
+  {
+    "id": 164,
+    "image": "sar_scene_0164.png",
+    "mask": "sar_scene_0164_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 3383,
+    "spill_area_ratio": 0.0516
+  },
+  {
+    "id": 165,
+    "image": "sar_scene_0165.png",
+    "mask": "sar_scene_0165_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 13004,
+    "spill_area_ratio": 0.1984
+  },
+  {
+    "id": 166,
+    "image": "sar_scene_0166.png",
+    "mask": "sar_scene_0166_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 2010,
+    "spill_area_ratio": 0.0307
+  },
+  {
+    "id": 167,
+    "image": "sar_scene_0167.png",
+    "mask": "sar_scene_0167_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 2740,
+    "spill_area_ratio": 0.0418
+  },
+  {
+    "id": 168,
+    "image": "sar_scene_0168.png",
+    "mask": "sar_scene_0168_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 1941,
+    "spill_area_ratio": 0.0296
+  },
+  {
+    "id": 169,
+    "image": "sar_scene_0169.png",
+    "mask": "sar_scene_0169_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 8909,
+    "spill_area_ratio": 0.1359
+  },
+  {
+    "id": 170,
+    "image": "sar_scene_0170.png",
+    "mask": "sar_scene_0170_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 3833,
+    "spill_area_ratio": 0.0585
+  },
+  {
+    "id": 171,
+    "image": "sar_scene_0171.png",
+    "mask": "sar_scene_0171_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 3227,
+    "spill_area_ratio": 0.0492
+  },
+  {
+    "id": 172,
+    "image": "sar_scene_0172.png",
+    "mask": "sar_scene_0172_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 10219,
+    "spill_area_ratio": 0.1559
+  },
+  {
+    "id": 173,
+    "image": "sar_scene_0173.png",
+    "mask": "sar_scene_0173_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 9589,
+    "spill_area_ratio": 0.1463
+  },
+  {
+    "id": 174,
+    "image": "sar_scene_0174.png",
+    "mask": "sar_scene_0174_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 7265,
+    "spill_area_ratio": 0.1109
+  },
+  {
+    "id": 175,
+    "image": "sar_scene_0175.png",
+    "mask": "sar_scene_0175_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 1616,
+    "spill_area_ratio": 0.0247
+  },
+  {
+    "id": 176,
+    "image": "sar_scene_0176.png",
+    "mask": "sar_scene_0176_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 8934,
+    "spill_area_ratio": 0.1363
+  },
+  {
+    "id": 177,
+    "image": "sar_scene_0177.png",
+    "mask": "sar_scene_0177_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 2778,
+    "spill_area_ratio": 0.0424
+  },
+  {
+    "id": 178,
+    "image": "sar_scene_0178.png",
+    "mask": "sar_scene_0178_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 11686,
+    "spill_area_ratio": 0.1783
+  },
+  {
+    "id": 179,
+    "image": "sar_scene_0179.png",
+    "mask": "sar_scene_0179_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 14012,
+    "spill_area_ratio": 0.2138
+  },
+  {
+    "id": 180,
+    "image": "sar_scene_0180.png",
+    "mask": "sar_scene_0180_mask.png",
+    "has_spill": true,
+    "spill_pixel_count": 10769,
+    "spill_area_ratio": 0.1643
+  },
+  {
+    "id": 181,
+    "image": "sar_scene_0181.png",
+    "mask": "sar_scene_0181_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 182,
+    "image": "sar_scene_0182.png",
+    "mask": "sar_scene_0182_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 183,
+    "image": "sar_scene_0183.png",
+    "mask": "sar_scene_0183_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 184,
+    "image": "sar_scene_0184.png",
+    "mask": "sar_scene_0184_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 185,
+    "image": "sar_scene_0185.png",
+    "mask": "sar_scene_0185_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 186,
+    "image": "sar_scene_0186.png",
+    "mask": "sar_scene_0186_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 187,
+    "image": "sar_scene_0187.png",
+    "mask": "sar_scene_0187_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 188,
+    "image": "sar_scene_0188.png",
+    "mask": "sar_scene_0188_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 189,
+    "image": "sar_scene_0189.png",
+    "mask": "sar_scene_0189_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 190,
+    "image": "sar_scene_0190.png",
+    "mask": "sar_scene_0190_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 191,
+    "image": "sar_scene_0191.png",
+    "mask": "sar_scene_0191_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 192,
+    "image": "sar_scene_0192.png",
+    "mask": "sar_scene_0192_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 193,
+    "image": "sar_scene_0193.png",
+    "mask": "sar_scene_0193_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 194,
+    "image": "sar_scene_0194.png",
+    "mask": "sar_scene_0194_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 195,
+    "image": "sar_scene_0195.png",
+    "mask": "sar_scene_0195_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 196,
+    "image": "sar_scene_0196.png",
+    "mask": "sar_scene_0196_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 197,
+    "image": "sar_scene_0197.png",
+    "mask": "sar_scene_0197_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 198,
+    "image": "sar_scene_0198.png",
+    "mask": "sar_scene_0198_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 199,
+    "image": "sar_scene_0199.png",
+    "mask": "sar_scene_0199_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 200,
+    "image": "sar_scene_0200.png",
+    "mask": "sar_scene_0200_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 201,
+    "image": "sar_scene_0201.png",
+    "mask": "sar_scene_0201_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 202,
+    "image": "sar_scene_0202.png",
+    "mask": "sar_scene_0202_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 203,
+    "image": "sar_scene_0203.png",
+    "mask": "sar_scene_0203_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 204,
+    "image": "sar_scene_0204.png",
+    "mask": "sar_scene_0204_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 205,
+    "image": "sar_scene_0205.png",
+    "mask": "sar_scene_0205_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 206,
+    "image": "sar_scene_0206.png",
+    "mask": "sar_scene_0206_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 207,
+    "image": "sar_scene_0207.png",
+    "mask": "sar_scene_0207_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 208,
+    "image": "sar_scene_0208.png",
+    "mask": "sar_scene_0208_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 209,
+    "image": "sar_scene_0209.png",
+    "mask": "sar_scene_0209_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 210,
+    "image": "sar_scene_0210.png",
+    "mask": "sar_scene_0210_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 211,
+    "image": "sar_scene_0211.png",
+    "mask": "sar_scene_0211_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 212,
+    "image": "sar_scene_0212.png",
+    "mask": "sar_scene_0212_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 213,
+    "image": "sar_scene_0213.png",
+    "mask": "sar_scene_0213_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 214,
+    "image": "sar_scene_0214.png",
+    "mask": "sar_scene_0214_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 215,
+    "image": "sar_scene_0215.png",
+    "mask": "sar_scene_0215_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 216,
+    "image": "sar_scene_0216.png",
+    "mask": "sar_scene_0216_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 217,
+    "image": "sar_scene_0217.png",
+    "mask": "sar_scene_0217_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 218,
+    "image": "sar_scene_0218.png",
+    "mask": "sar_scene_0218_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 219,
+    "image": "sar_scene_0219.png",
+    "mask": "sar_scene_0219_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 220,
+    "image": "sar_scene_0220.png",
+    "mask": "sar_scene_0220_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 221,
+    "image": "sar_scene_0221.png",
+    "mask": "sar_scene_0221_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 222,
+    "image": "sar_scene_0222.png",
+    "mask": "sar_scene_0222_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 223,
+    "image": "sar_scene_0223.png",
+    "mask": "sar_scene_0223_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 224,
+    "image": "sar_scene_0224.png",
+    "mask": "sar_scene_0224_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 225,
+    "image": "sar_scene_0225.png",
+    "mask": "sar_scene_0225_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 226,
+    "image": "sar_scene_0226.png",
+    "mask": "sar_scene_0226_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 227,
+    "image": "sar_scene_0227.png",
+    "mask": "sar_scene_0227_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 228,
+    "image": "sar_scene_0228.png",
+    "mask": "sar_scene_0228_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 229,
+    "image": "sar_scene_0229.png",
+    "mask": "sar_scene_0229_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 230,
+    "image": "sar_scene_0230.png",
+    "mask": "sar_scene_0230_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 231,
+    "image": "sar_scene_0231.png",
+    "mask": "sar_scene_0231_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 232,
+    "image": "sar_scene_0232.png",
+    "mask": "sar_scene_0232_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 233,
+    "image": "sar_scene_0233.png",
+    "mask": "sar_scene_0233_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 234,
+    "image": "sar_scene_0234.png",
+    "mask": "sar_scene_0234_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 235,
+    "image": "sar_scene_0235.png",
+    "mask": "sar_scene_0235_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 236,
+    "image": "sar_scene_0236.png",
+    "mask": "sar_scene_0236_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 237,
+    "image": "sar_scene_0237.png",
+    "mask": "sar_scene_0237_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 238,
+    "image": "sar_scene_0238.png",
+    "mask": "sar_scene_0238_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 239,
+    "image": "sar_scene_0239.png",
+    "mask": "sar_scene_0239_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  },
+  {
+    "id": 240,
+    "image": "sar_scene_0240.png",
+    "mask": "sar_scene_0240_mask.png",
+    "has_spill": false,
+    "spill_pixel_count": 0,
+    "spill_area_ratio": 0.0
+  }
+]

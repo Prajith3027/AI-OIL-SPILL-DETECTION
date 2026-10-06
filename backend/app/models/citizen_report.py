@@ -21,6 +21,7 @@ from sqlalchemy.dialects.postgresql import UUID
 from sqlalchemy.orm import relationship
 
 from app.database.session import Base
+import app.models.user  # noqa: F401  (registers users table referenced by user_id FK)
 
 
 class CitizenReport(Base):
@@ -101,6 +102,12 @@ class CitizenReport(Base):
         index=True,
         doc="Foreign key to linked incident if verified",
     )
+
+    # Ownership & citizen-facing fields (auth extension)
+    user_id = Column(String(36), ForeignKey("users.id", ondelete="SET NULL"), nullable=True, index=True)
+    severity = Column(String(16), nullable=True, doc="Citizen-assessed severity: LOW, MEDIUM, HIGH, CRITICAL")
+    video_url = Column(String(512), nullable=True, doc="Optional uploaded video evidence URL")
+    public_remarks = Column(Text, nullable=True, doc="Public-safe admin remarks visible to the reporting citizen")
 
     # Audit & Review Metadata
     reviewed_by = Column(String(128), nullable=True, doc="Command operator or reviewer name")

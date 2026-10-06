@@ -1,0 +1,54 @@
+{
+  "model_version": "oil_spill_demo_v1",
+  "model_architecture": "LightweightUNet",
+  "in_channels": 3,
+  "out_channels": 1,
+  "features": [
+    16,
+    32,
+    64,
+    128
+  ],
+  "image_size": [
+    256,
+    256
+  ],
+  "classes": {
+    "0": "Background / Ocean",
+    "1": "Oil Spill"
+  },
+  "preprocessing": {
+    "resize": [
+      256,
+      256
+    ],
+    "normalization": "ImageNet",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ]
+  },
+  "threshold": 0.5,
+  "training_epochs": 15,
+  "best_val_loss": 0.1626,
+  "test_metrics": {
+    "Dice": 0.9985,
+    "IoU": 0.997,
+    "Precision": 0.9979,
+    "Recall": 0.9991,
+    "Accuracy": 0.9998
+  },
+  "dataset_split": {
+    "total_images": 240,
+    "train": 168,
+    "val": 36,
+    "test": 36
+  },
+  "model_notice": "Prototype ML model trained on hackathon demonstration SAR dataset."
+}

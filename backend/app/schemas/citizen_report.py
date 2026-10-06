@@ -105,7 +105,8 @@ class CitizenReportStatusUpdate(BaseModel):
     @field_validator("status")
     @classmethod
     def validate_status(cls, v: str) -> str:
-        valid = {"SUBMITTED", "UNDER_REVIEW", "AI_ASSISTED_VERIFICATION", "VERIFIED", "REJECTED"}
+        valid = {"SUBMITTED", "UNDER_REVIEW", "AI_ASSISTED_VERIFICATION", "VERIFIED", "REJECTED",
+                 "INVESTIGATION_STARTED", "RESOLVED"}
         upper = v.upper()
         if upper not in valid:
             raise ValueError(f"Invalid status '{v}'. Must be one of {valid}")
